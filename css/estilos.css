@@ -69,7 +69,38 @@ li a {
     margin-top: 200px;
     margin-bottom: 145px;
 }
+/*bootstrap*/
+.body__inf {
+    background-color: rgb(43, 42, 42);
+}
+.carousel-inner img {
+    height: 800px;
 
+}
+.card {
+    background-color: black;
+    border: 2px solid rgb(199, 12, 115);
+    box-shadow: rgb(199, 12, 115);
+    margin-bottom: 20px;
+    
+}
+
+.card img {
+    height: 250px;
+
+}
+.card-title {
+    color: rgb(199, 12, 115);
+    text-transform: uppercase;
+}
+.titulo__ropa {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(199, 12, 115);
+    width: 100%;
+    margin-top: 40px;
+    font-weight: bold;
+}
 .section1 {
     display: flex;
     flex-direction: row;
@@ -281,6 +312,20 @@ li a {
     
 
 }
+.foter__inf {
+    background-color: black;
+    color: rgb(199, 12, 115);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
+.piepagina__titulo--inf {
+    font-size: medium;
+    font-weight: bold;
+}
 .piepagina {
     text-align: center;
 }
@@ -396,6 +441,17 @@ li a {
         height: 100%;
         gap: 1rem;
         
+    }
+    /*bootstrap*/ 
+    .col {
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .carousel-inner img {
+        height: 400px;
+    
     }
     .section1 {
         justify-content: center;
