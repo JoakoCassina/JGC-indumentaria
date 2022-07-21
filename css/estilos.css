@@ -67,6 +67,7 @@ li a {
 
 .main {
     margin-top: 200px;
+    margin-bottom: 145px;
 }
 
 .section1 {
@@ -272,6 +273,10 @@ li a {
     color: white;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
     
     
 
@@ -369,10 +374,10 @@ li a {
         background-color: rgb(214, 187, 112);
         position: fixed;
         top: 110px;
-        left: 0;
+        right: 0;
         z-index: 1000000;
-        width: 75%;
-        height: 100vh;
+        width: 40%;
+        height: 40vh;
         
     }
     .icono__1 {
@@ -385,7 +390,8 @@ li a {
     }
     .nav__ul {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
+        padding-right: 15px;
         justify-content: center;
         height: 100%;
         gap: 1rem;
