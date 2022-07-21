@@ -535,6 +535,11 @@ li a {
         grid-template-columns: 180px 180px;
         max-width: auto;
     }
+    .foter__inf {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        max-width: auto;
+    }
     .piepagina {
         margin: 4px;
     }
