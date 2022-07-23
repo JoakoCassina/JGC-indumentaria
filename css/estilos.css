@@ -41,6 +41,43 @@ body {
     width: 100px;
     height: 80px;
 }
+/*bootstrap*/
+.navbar img {
+    width: 70px;
+    height: 70px;
+}
+.collapse a:hover,
+.collapse a:focus {
+    
+    color: white;
+
+}
+
+.navbar-toggler {
+    color: rgb(199, 12, 115);
+}
+.navbar-toggler-icon {
+    background-color: rgb(199, 12, 115);
+
+}
+.nav-link,
+.navbar__a {
+    color: rgb(199, 12, 115);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.btn {
+    background-color: rgb(199, 12, 115);
+    color: white;
+    border: 2px solid white;
+}
+.d-flex button:hover,
+.d-flex button:focus {
+    background-color: white;
+    color: rgb(199, 12, 115);
+    border: 2px solid rgb(199, 12, 115);
+}
 .nav__ul {
     list-style: none;
     display: flex;
