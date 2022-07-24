@@ -41,7 +41,8 @@ body {
     width: 100px;
     height: 80px;
 }
-/*bootstrap*/
+/*bootstrap Nav Informal*/
+
 .navbar img {
     width: 70px;
     height: 70px;
@@ -78,6 +79,10 @@ body {
     color: rgb(199, 12, 115);
     border: 2px solid rgb(199, 12, 115);
 }
+/*Fin Nav Bootstrap*/
+.color__bus {
+    background-color: rgb(12, 12, 54);
+}
 .nav__ul {
     list-style: none;
     display: flex;
@@ -106,7 +111,7 @@ li a {
     margin-top: 200px;
     margin-bottom: 145px;
 }
-/*bootstrap*/
+/*bootstrap Seccion informal*/
 .body__inf {
     background-color: rgb(43, 42, 42);
 }
@@ -138,6 +143,8 @@ li a {
     margin-top: 40px;
     font-weight: bold;
 }
+/*Fin bootrstrap informal*/
+
 .section1 {
     display: flex;
     flex-direction: row;
@@ -168,7 +175,7 @@ li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: stretch;
     align-content: flex-start;
 
@@ -184,22 +191,49 @@ li a {
     border: 3px solid rgb(13, 25, 41);
     border-radius: 20px;
     padding: 40px;
-    margin: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 4px 4px 18px black;
     position: relative;
+    height: 450px;
 }
 .section2__li--h3 {
     text-transform: uppercase;
     color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .section2__li--p {
     color: black;
+    
 }
 .section2__li--img {
     border-radius: 10px;
     width: 250px;
     height: 200px;
 }
+/*Parte informal index*/
+.section2__li--2 {
+    background-color: black;
+    border: 3px solid rgb(199, 12, 115);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 18px black;
+    position: relative;
+    height: 450px;
+}
+.section2__li--h3-2 {
+    color: rgb(199, 12, 115);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.section2__li--p-2 {
+    color: rgb(56, 56, 56);
+}
+/*fin Parte Informal*/
 .section2__span {
     background-color: red;
     color: white;
@@ -391,6 +425,7 @@ li a {
         max-height: 500px;
 
     }
+
     /* contacto */
     
     .titulo {
@@ -432,6 +467,11 @@ li a {
     .nosotros__map {
         width: 300px;
         margin: 5px;
+    }
+
+    .piepagina__titulo {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .piepagina__imagen {
@@ -506,11 +546,17 @@ li a {
 
     }
     .section2 {
-        justify-content: center;
-        
+        justify-content: center; 
+        width: 90%;
+
     }
     .section2__li {
         width: 300px;
+        
+    }
+    .section2__li--2 {
+        width: 300px;
+        
         
     }
     .section2__li--img {
@@ -569,7 +615,7 @@ li a {
 
     .foter {
         display: grid;
-        grid-template-columns: 180px 180px;
+        grid-template-columns: 150px 150px;
         max-width: auto;
     }
     .foter__inf {
