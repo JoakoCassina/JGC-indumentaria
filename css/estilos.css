@@ -55,29 +55,29 @@ body {
 }
 
 .navbar-toggler {
-    color: rgb(199, 12, 115);
+    color: white;
 }
 .navbar-toggler-icon {
-    background-color: rgb(199, 12, 115);
+    background-color: white;
+    
 
 }
-.nav-link,
-.navbar__a {
-    color: rgb(199, 12, 115);
+.nav-link {
+    color: rgb(249, 249, 250);
     text-transform: uppercase;
     font-weight: bold;
-    
 }
+
 .btn {
-    background-color: rgb(199, 12, 115);
+    background-color: rgb(12, 12, 54);
     color: white;
     border: 2px solid white;
 }
 .d-flex button:hover,
 .d-flex button:focus {
     background-color: white;
-    color: rgb(199, 12, 115);
-    border: 2px solid rgb(199, 12, 115);
+    color: rgb(12, 12, 54);
+    border: 2px solid rgb(12, 12, 54);
 }
 /*Fin Nav Bootstrap*/
 .color__bus {
@@ -108,7 +108,7 @@ li a {
 
 
 .main {
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 145px;
 }
 /*bootstrap Seccion informal*/
@@ -134,6 +134,7 @@ li a {
 .card-title {
     color: rgb(199, 12, 115);
     text-transform: uppercase;
+    
 }
 .titulo__ropa {
     text-align: center;
@@ -146,29 +147,50 @@ li a {
 /*Fin bootrstrap informal*/
 
 .section1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     padding-left: 100px;
+     
+}
+.section1__h1-1 {
+    color: rgb(13, 25, 41);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.section1__h1-2 {
+    color: rgb(13, 25, 41);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+.acordion__f {
+    width: 400px;
     
-    
+
 }
 .section1__h1 {
     color: rgb(13, 25, 41);
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
     padding-top: 30px;
-    padding-bottom: 50px;
-    margin-left: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    margin-right: 120px;
     
 
 }
 .section1__vi {
-    max-width: 700px;
-    max-height: 700px;
+    width: 700px;
+    max-height: 600px;
 
 }
 .section2 {
@@ -197,6 +219,7 @@ li a {
     box-shadow: 4px 4px 18px black;
     position: relative;
     height: 450px;
+    width: 335px;
 }
 .section2__li--h3 {
     text-transform: uppercase;
@@ -284,7 +307,8 @@ li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.contacto__f form .form2 {
+.form2,
+.d-grid {
     grid-column: 1 / 3;
 }
 .contacto__f form p {
@@ -350,6 +374,7 @@ li a {
 }
 .nosotros {
     text-align: center;
+
 }
 
 .Nosotros__sec--h2 {
@@ -369,6 +394,25 @@ li a {
     font-size: large;
     padding: 10px;
 }
+/*bootstrap acordeon Nosotros*/
+.accordion {
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    --bs-accordion-active-bg: rgb(13, 25, 41);
+
+}
+
+.accordion-item div {
+    background-color: rgb(214, 187, 112);
+    color: rgb(13, 25, 41);
+
+}
+.accordion-item button {
+    background-color: rgb(13, 25, 41);
+    color: white;
+}
+
 
 .foter {
     background-color: rgb(13, 25, 41);
@@ -378,22 +422,10 @@ li a {
     width: 100%;
     position: fixed;
     bottom: 0;
-    
-    
-    
 
 }
-.foter__inf {
-    background-color: black;
-    color: rgb(199, 12, 115);
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    
-}
-.piepagina__titulo--inf {
+
+.piepagina__titulo {
     font-size: medium;
     font-weight: bold;
 }
@@ -412,12 +444,39 @@ li a {
         text-align: center;
         padding: 0;
         
-        
+    }
+    .section1__h1-1 {
+        color: rgb(13, 25, 41);
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .section1__h1-2 {
+        color: rgb(13, 25, 41);
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    
     }
     
     .section1__h1 {
-        justify-content: center;
+        text-align: center;
+        margin: 0;
 
+    }
+    .acordion__f {
+        margin: auto;
+        max-width: 600px;
+        width: auto;
+        margin-bottom: 40px;
+        
+    
     }
     .section1__vi {
         max-width: 1000px;
@@ -482,6 +541,10 @@ li a {
 }
 
 @media screen and (max-width: 599px) {
+
+    .main {
+        margin-bottom: 250px;
+    }
 
     .icono {
         display: block;
@@ -611,6 +674,12 @@ li a {
     .nosotros__map {
         width: auto;
         height: 250px;
+    }
+    /*bootstra*/
+    .accordion {
+        
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .foter {
