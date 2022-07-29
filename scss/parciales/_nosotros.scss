@@ -1,0 +1,26 @@
+/*seccion nosotros*/
+.nosotros1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.nosotros {
+    text-align: center;
+}
+
+.Nosotros__sec--h2 {
+    color: rgb(13, 25, 41);
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.Nosotros__sec--h2b {
+    color: rgb(13, 25, 41);
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.Nosotros__sec--p {
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
