@@ -1,0 +1,81 @@
+.main {
+    margin-top: 200px;
+    margin-bottom: 145px;
+}
+
+/*bootstrap Seccion informal*/
+.body__inf {
+    background-color: rgb(43, 42, 42);
+}
+.carousel-inner img {
+    height: 800px;
+
+}
+.card {
+    background-color: black;
+    border: 2px solid rgb(199, 12, 115);
+    box-shadow: rgb(199, 12, 115);
+    margin-bottom: 20px;
+    
+}
+
+.card img {
+    height: 250px;
+
+}
+.card-title {
+    color: rgb(199, 12, 115);
+    text-transform: uppercase;
+    
+}
+.titulo__ropa {
+    @extend .card-title;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    font-weight: bold;
+}
+/*Fin bootrstrap informal*/
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 100px;
+     
+}
+.section1__h1-1 {
+    color: $colorPrincipal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.section1__h1-2 {
+    @extend .section1__h1-1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+
+}
+.acordion__f {
+    width: 400px;
+}
+.section1__h1 {
+    color: $colorPrincipal;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    margin-right: 120px;
+    
+
+}
+.section1__vi {
+    width: 700px;
+    max-height: 600px;
+
+}

@@ -1,0 +1,23 @@
+.foter {
+    background-color: $colorPrincipal;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    bottom: 0;
+
+}
+
+.piepagina__titulo {
+    font-size: medium;
+    font-weight: bold;
+}
+.piepagina {
+    text-align: center;
+}
+
+.piepagina__imagen {
+    height: 50px;
+    width: 50px;
+}

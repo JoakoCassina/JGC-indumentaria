@@ -1,0 +1,47 @@
+body header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar img {
+    width: 70px;
+    height: 70px;
+}
+.collapse a:hover,
+.collapse a:focus {
+    
+    color: white;
+
+}
+
+.navbar-toggler {
+    color: white;
+}
+.navbar-toggler-icon {
+    background-color: white;
+    
+
+}
+.nav-link {
+    @extend .navbar-toggler;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn {
+    @extend .navbar-toggler;
+    background-color: $colorPrincipal;
+    border: 2px solid white;
+}
+.d-flex button:hover,
+.d-flex button:focus {
+    @extend .navbar-toggler-icon;
+    color: $colorPrincipal;
+    border: 2px solid $colorPrincipal;
+}
+/*Fin Nav Bootstrap*/
+.color__bus {
+    background-color: $colorPrincipal;
+}

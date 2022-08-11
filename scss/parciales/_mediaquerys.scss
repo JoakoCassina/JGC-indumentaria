@@ -1,0 +1,266 @@
+@media screen and (max-width: 1023px) {
+    .section1 {
+        display: block;
+        text-align: center;
+        padding: 0;
+        
+    }
+    .section1__h1-1 {
+        color: rgb(13, 25, 41);
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .section1__h1-2 {
+        color: rgb(13, 25, 41);
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    
+    }
+    
+    .section1__h1 {
+        text-align: center;
+        margin: 0;
+
+    }
+    .acordion__f {
+        margin: auto;
+        max-width: 600px;
+        width: auto;
+        margin-bottom: 40px;
+        
+    
+    }
+    .section1__vi {
+        width: 100%;
+        max-height: 500px;
+
+    }
+
+    /* contacto */
+    
+    .titulo {
+        font-size: 28px;
+    }
+    .contacto {
+        max-width: 790px;
+     }
+
+    .contacto__f form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto__i {
+        width: 250px;
+        padding-top: 70px;
+        padding-left: 15px;
+    }
+    
+    .contacto__i h3 {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        
+    }
+    .contacto__i img {
+        margin-left: -30px;
+    }
+
+    /*nosotros*/
+    .Nosotros__sec--h2 {
+        font-size: 30px;
+    }
+    .Nosotros__sec--h2b {
+        font-size: 25px;
+    }
+    
+    .nosotros__map {
+        width: 300px;
+        margin: 5px;
+    }
+
+    .piepagina__titulo {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .piepagina__imagen {
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .main {
+        margin-bottom: 250px;
+    }
+
+    /*
+    .icono {
+        display: block;
+        color: rgb(214, 187, 112);
+
+    }
+    .nav {
+        display: none;
+    }
+    .nav:target {
+        display: block;
+        background-color: rgb(214, 187, 112);
+        position: fixed;
+        top: 110px;
+        right: 0;
+        z-index: 1000000;
+        width: 40%;
+        height: 40vh;
+        
+    }
+    .icono__1 {
+        display: block;
+        padding-left:100px ;
+        
+    }
+    li a {
+        color: rgb(13, 25, 41);
+    }
+    .nav__ul {
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 15px;
+        justify-content: center;
+        height: 100%;
+        gap: 1rem;
+        
+    }
+    */
+    /*bootstrap*/ 
+    .col {
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .carousel-inner img {
+        height: 400px;
+    
+    }
+    .section1 {
+        justify-content: center;
+        padding: 0;
+        
+        
+    }
+    .section1__h1 {
+        justify-content: center;
+
+    }
+    .section1__vi {
+        width: 100%;
+        
+
+    }
+    .section2 {
+        @extend .section1__h1;
+        width: 90%;
+
+    }
+    .section2__li,
+    .section2__li--2 {
+        width: 300px;
+        
+    }
+    .section2__li--img {
+        border-radius: 10px;
+        width: 214px;
+        height: 200px;
+    }
+    /* Seccion contacto*/
+    .titulo {
+        font-size: 18px;
+    }
+    .contacto {
+        padding: 0.5rem;
+    }
+    .formulario {
+        grid-template-columns: none;
+        
+    }
+    .formulario > * {
+        padding: 1em;
+    
+    }
+    .contacto__i,
+    .contacto__f {
+        min-width: 240px;
+        padding-top: 0;
+    }
+    .contacto__i {
+        width: auto;
+        text-align: center;
+    }
+    .contacto__i h3,
+    .contacto__i ul,
+    .contacto__i img {
+        padding: 1rem;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+
+    }
+    
+    /*seccion Nosotros*/
+    .nosotros1 {
+        display: block;
+    }
+    .nosotros__img {
+        width: 250px;
+        height: 250px;
+    }
+    .Nosotros__sec--p {
+        font-size: small;
+    }
+    .nosotros__map {
+        width: auto;
+        height: 250px;
+    }
+    /*bootstra*/
+    .accordion {
+        
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .foter {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        max-width: auto;
+    }
+    .foter__inf {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        max-width: auto;
+    }
+    .piepagina {
+        margin: 4px;
+    }
+    .piepagina__imagen {
+        height: 30px;
+        width: 30px;
+    }
+    .piepagina__titulo {
+        @extend .Nosotros__sec--p;
+        font-style: unset;
+        
+    }
+    
+}

@@ -1,0 +1,79 @@
+.section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+
+
+    
+    padding-top: 20px;
+    padding-bottom: 150px;
+    list-style: none;
+    
+}
+.section2__li {
+    background-color: white;
+    border: 3px solid $colorPrincipal;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 18px black;
+    position: relative;
+    height: auto;
+    width: 335px;
+}
+.section2__li--h3 {
+    text-transform: uppercase;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section2__li--p {
+    color: black;
+    
+}
+.section2__li--img {
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+}
+/*Parte informal index*/
+.section2__li--2 {
+    background-color: black;
+    border: 3px solid rgb(199, 12, 115);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 18px black;
+    position: relative;
+    height: 450px;
+}
+.section2__li--h3-2 {
+    color: rgb(199, 12, 115);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.section2__li--p-2 {
+    color: rgb(56, 56, 56);
+}
+/*fin Parte Informal index*/
+.section2__span {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.section2__span1 {
+    background-color:white;
+    color: blue;
+    font-weight: bold;
+}
