@@ -21,25 +21,23 @@ body header {
 .collapse a:focus {
   color: white; }
 
-.navbar-toggler {
+.navbar-toggler, .nav-link, .btn {
   color: white; }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon, .d-flex button:hover,
+.d-flex button:focus {
   background-color: white; }
 
 .nav-link {
-  color: #f9f9fa;
   text-transform: uppercase;
   font-weight: bold; }
 
 .btn {
   background-color: #0d1929;
-  color: white;
   border: 2px solid white; }
 
 .d-flex button:hover,
 .d-flex button:focus {
-  background-color: white;
   color: #0d1929;
   border: 2px solid #0d1929; }
 
@@ -67,14 +65,12 @@ body header {
 .card img {
   height: 250px; }
 
-.card-title {
+.card-title, .titulo__ropa {
   color: #c70c73;
   text-transform: uppercase; }
 
 .titulo__ropa {
   text-align: center;
-  text-transform: uppercase;
-  color: #c70c73;
   width: 100%;
   margin-top: 40px;
   font-weight: bold; }
@@ -85,7 +81,7 @@ body header {
   grid-template-columns: 1fr 2fr;
   padding-left: 100px; }
 
-.section1__h1-1 {
+.section1__h1-1, .section1__h1-2 {
   color: #0d1929;
   text-transform: uppercase;
   text-align: center;
@@ -95,13 +91,8 @@ body header {
   font-weight: bold; }
 
 .section1__h1-2 {
-  color: #0d1929;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 50px;
   margin-top: 20px;
-  margin-bottom: 30px;
-  font-weight: bold; }
+  margin-bottom: 30px; }
 
 .acordion__f {
   width: 400px; }
@@ -337,7 +328,7 @@ body header {
     display: block;
     text-align: center;
     padding: 0; }
-  .section1__h1-1 {
+  .section1__h1-1, .section1__h1-2 {
     color: #0d1929;
     text-transform: uppercase;
     text-align: center;
@@ -455,14 +446,13 @@ body header {
   .section2 {
     justify-content: center;
     width: 90%; }
-  .section2__li {
-    width: 300px; }
+  .section2__li,
   .section2__li--2 {
     width: 300px; }
   .section2__li--img {
-    border-radius: 10px;
     width: 214px;
-    height: 200px; }
+    height: 200px;
+    border-radius: 10px; }
   /* Seccion contacto*/
   .titulo {
     font-size: 18px; }
@@ -512,7 +502,8 @@ body header {
   .piepagina {
     margin: 4px; }
   .piepagina__imagen {
-    height: 30px;
-    width: 30px; }
+    width: 30px;
+    height: 30px; }
   .piepagina__titulo {
-    font-size: small; } }
+    font-size: small;
+    font-style: unset; } }

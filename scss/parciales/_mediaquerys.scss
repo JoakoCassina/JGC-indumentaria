@@ -100,6 +100,10 @@
 }
 
 @media screen and (max-width: 599px) {
+    @mixin tamaño ($alto, $ancho) {
+        width: $ancho;
+        height: $alto;
+    }
 
     .main {
         margin-bottom: 250px;
@@ -170,7 +174,7 @@
 
     }
     .section2 {
-        @extend .section1__h1;
+        justify-content: center;
         width: 90%;
 
     }
@@ -180,9 +184,9 @@
         
     }
     .section2__li--img {
+        @include tamaño(200px,214px);
         border-radius: 10px;
-        width: 214px;
-        height: 200px;
+       
     }
     /* Seccion contacto*/
     .titulo {
@@ -223,15 +227,14 @@
         display: block;
     }
     .nosotros__img {
-        width: 250px;
-        height: 250px;
+        @include tamaño(250px,250px);
     }
     .Nosotros__sec--p {
         font-size: small;
     }
     .nosotros__map {
-        width: auto;
-        height: 250px;
+        @include tamaño(250px,auto);
+
     }
     /*bootstra*/
     .accordion {
@@ -254,11 +257,11 @@
         margin: 4px;
     }
     .piepagina__imagen {
-        height: 30px;
-        width: 30px;
+        @include tamaño(30px,30px);
+        
     }
     .piepagina__titulo {
-        @extend .Nosotros__sec--p;
+        font-size: small;
         font-style: unset;
         
     }
