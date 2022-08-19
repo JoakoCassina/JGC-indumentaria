@@ -455,7 +455,9 @@ header nav {
     font-size: small; }
   .nosotros__map {
     width: auto;
-    height: 250px; }
+    height: 250px;
+    margin-left: 0px;
+    margin-right: 0px; }
   /*bootstra*/
   .accordion {
     margin-left: 5px;
