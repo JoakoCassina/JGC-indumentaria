@@ -321,7 +321,8 @@ header nav {
 
 .piepagina__titulo {
   font-size: medium;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase; }
 
 .piepagina {
   text-align: center; }
@@ -458,7 +459,7 @@ header nav {
     height: 250px;
     margin-left: 0px;
     margin-right: 0px; }
-  /*bootstra*/
+  /*bootstrap*/
   .accordion {
     margin-left: 5px;
     margin-right: 5px; }
