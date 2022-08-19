@@ -11,9 +11,7 @@ body header {
 }
 .collapse a:hover,
 .collapse a:focus {
-    
     color: white;
-
 }
 
 .navbar-toggler {
@@ -21,8 +19,6 @@ body header {
 }
 .navbar-toggler-icon {
     background-color: white;
-    
-
 }
 .nav-link {
     @extend .navbar-toggler;
@@ -44,4 +40,7 @@ body header {
 /*Fin Nav Bootstrap*/
 .color__bus {
     background-color: $colorPrincipal;
+}
+header nav {
+    background-color: $colorPrincipal !important;
 }

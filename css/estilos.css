@@ -45,8 +45,11 @@ body header {
 .color__bus {
   background-color: #0d1929; }
 
+header nav {
+  background-color: #0d1929 !important; }
+
 .main {
-  margin-top: 200px;
+  margin-top: 240px;
   margin-bottom: 145px; }
 
 /*bootstrap Seccion informal*/
@@ -74,6 +77,10 @@ body header {
   width: 100%;
   margin-top: 40px;
   font-weight: bold; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 /*Fin bootrstrap informal*/
 .section1 {
@@ -391,44 +398,6 @@ body header {
 @media screen and (max-width: 599px) {
   .main {
     margin-bottom: 250px; }
-  /*
-    .icono {
-        display: block;
-        color: rgb(214, 187, 112);
-
-    }
-    .nav {
-        display: none;
-    }
-    .nav:target {
-        display: block;
-        background-color: rgb(214, 187, 112);
-        position: fixed;
-        top: 110px;
-        right: 0;
-        z-index: 1000000;
-        width: 40%;
-        height: 40vh;
-        
-    }
-    .icono__1 {
-        display: block;
-        padding-left:100px ;
-        
-    }
-    li a {
-        color: rgb(13, 25, 41);
-    }
-    .nav__ul {
-        flex-direction: column;
-        align-items: flex-end;
-        padding-right: 15px;
-        justify-content: center;
-        height: 100%;
-        gap: 1rem;
-        
-    }
-    */
   /*bootstrap*/
   .col {
     max-width: 380px;
@@ -493,7 +462,7 @@ body header {
     margin-right: 5px; }
   .foter {
     display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 145px 145px;
     max-width: auto; }
   .foter__inf {
     display: grid;
